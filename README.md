@@ -8,6 +8,7 @@ Test task for Prisify, Simple products table with some filters created using Lar
 ## Installation
 
 Clone the repository
+Create .env file same as .env.example
 Set the DB_ environment variables in .env file
 Create a database with the name specified in DB_DATABASE
 
@@ -16,7 +17,8 @@ Create a database with the name specified in DB_DATABASE
   php artisan migrate
   php artisan serve
   php artisan db:seed --class=ManufacturerSeeder
-  php artisan db:seed --class=ProductSeeder 
+  php artisan db:seed --class=ProductSeeder
+  npm install
   npm run dev
 ```
 
